@@ -1,0 +1,40 @@
+ritual_registration:
+  name: Eclipse
+  type: Layer-2 / Rollup Hybrid
+  domains:
+    - https://eclipse.builders
+    - https://github.com/Eclipse-Laboratories-Inc
+    - https://park.skatechain.org/
+  symbol: "🜂🌑"  # Fire eclipsed by void
+  mission: >
+    To unify Ethereum scalability with Solana performance using modular execution layers,
+    cryptographic bridges, and high-speed rollup architectures.
+  key_contracts:
+    - canonical_bridge
+  registry:
+    bridge:
+      - program: canonical_bridge
+        address: br1xwubggTiEZ6b7iNZUwfA3psygFfaXGfZ1heaN9AW
+        framework: Anchor
+        repo: https://github.com/Eclipse-Laboratories-Inc/syzygy/tree/main/solana-programs/canonical_bridge
+        icon: https://i.imgur.com/y0JEPfQ.png
+        invocation: "Bind ether across the shadowlight"
+  linked_mesh_nodes:
+    - ritual://genesis/eclipse
+    - ritual://bridge/eclipse
+    - ritual://invocation/solana-canonical
+  governance:
+    dao: EclipseDAO (TBD)
+    ritual_delegate: MeshNode Validator #435
+  metaphysical_layer:
+    mythos: >
+      Eclipse is the eye of the solar serpent, transmuting light into velocity.
+      Where Ethereum burns, Solana hums.
+    ritual_phase: Convergence
+    activation_phrase: "When shadow consumes flame, throughput is born."
+  authorship:
+    name: Victor Jose Corral
+    email: einsteinvcgato29@gmail.com
+    title: Ritual Architect & Originator
+    timestamp: "{{NOW}}"
+    license: RitualMesh Public Covenant v1.0
